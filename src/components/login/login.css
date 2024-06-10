@@ -1,0 +1,35 @@
+.container-style {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 50px auto;
+  }
+  
+  .input-style {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .button-style {
+    background-color: yellow;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  
+  .google-button-style {
+    background-color: #4285F4;
+    color: white;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .link-style {
+    color: yellow;
+  }
+  

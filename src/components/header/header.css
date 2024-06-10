@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-custom {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    border-bottom: 0.0625rem solid #333;
+    z-index: 1000;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+@media (max-width: 1080px) {
+    .navbar-custom {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+.navbar-brand-custom {
+    margin-left: 1.25rem; /* 20px */
+}
+
+.menu-button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding-left: 1rem;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.search-box-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 0.5rem; /* 8px */
+    padding: 0.25rem 0.5rem; /* 4px 8px */
+    position: relative;
+}
+
+.search-input {
+    width: 25rem;
+    flex-grow: 1;
+    border: none;
+    border-radius: 0;
+    background-color: #fff;
+    color: #000;
+    margin-left: 0.625rem; /* 10px */
+}
+
+.search-input:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.search-button {
+    background: none;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    padding: 0;
+}
+
+.category-dropdown {
+    border-radius: 0;
+    background-color: #fff;
+    color: #000;
+    border: none;
+}
+
+.language-dropdown {
+    border-radius: 0.5rem; /* 8px */
+    color: #fff;
+    border: none;
+    margin-top: 0.2rem;
+}
+
+.dropdown-item-custom {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #222;
+    color: #fff;
+    border: none;
+}
+
+.dropdown-item-custom:not(:last-child) {
+    border-bottom: 1px solid #333; /* Son item hariç her itemin altına border-bottom ekler */
+}
+
+.dropdown-item-custom:hover {
+    background-color: #444;
+}
+
+.search-result-item {
+    display: flex;
+    align-items: center;
+    text-align: left; /* Metni sola dayar */
+}
+
+.result-photo {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 0.25rem;
+    margin-right: 0.75rem;
+}
+
+.result-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-divider {
+    height: 1px;
+    background-color: #333;
+    margin: 0.5rem 0;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.vertical-divider {
+    width: 0.125rem; /* 2px */
+    height: 1.5rem; /* 24px */
+    background-color: #ccc;
+    margin: 0 0.5rem; /* 8px */
+}
+
+.nav-link-custom {
+    color: #fff;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.search-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 45%; /* Dropdown'ı sol kenarın %50'sine yerleştirir */
+    transform: translateX(-50%); /* Dropdown'ı genişliğinin yarısı kadar sola kaydırarak ortalar */
+    width: 27%; /* Arama kutusunun genişliğiyle aynı yapar */
+    background-color: #222;
+    border-radius: 0.5rem;
+    z-index: 1000;
+    padding: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 0.2rem; /* Arama kutusunun hemen altına yerleştirir */
+}
+
+.icon {
+    margin-right: 0.5rem;
+}

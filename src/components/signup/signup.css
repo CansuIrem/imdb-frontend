@@ -1,0 +1,28 @@
+body {
+    background-color: #000;
+    color: #fff;
+    padding-top: 4rem;
+  }
+  
+  .form-container {
+    width: 30rem;
+    margin: 0 auto;
+    
+  }
+  
+  .btn-primary {
+    background-color: #ffe448;
+    color: #000;
+    border-color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #fff;
+    color: #000;
+    border-color: #fff;
+  }
+  
+  ::placeholder {
+    color: #ccc;
+  }
+  

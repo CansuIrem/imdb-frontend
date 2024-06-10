@@ -1,0 +1,100 @@
+
+.movie-detail {
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 1%;
+  }
+  
+  .movie-photo {
+    width: 93%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .movie-video {
+    margin-bottom: 20px;
+  }
+  
+  
+  .movie-info p {
+    font-size: 1rem;
+    color: #ddd;
+  }
+  
+  .movie-details {
+    margin-bottom: 20px;
+  }
+  
+  .movie-extras {
+    margin-top: -10px;
+  }
+  .extra-card {
+    margin-top: 20px;
+    background-color: #444;
+    color:#ccc;
+  }
+
+  .extra-card:hover {
+    background-color: #666;
+    cursor: pointer;
+  }
+
+  .title {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .title h1 {
+    font-size: 5cap;
+    white-space: nowrap;
+  }
+
+  .title p {
+    font-size: 85%;
+    white-space: nowrap;
+  }
+
+
+  .down-title {
+    padding: 0.5rem;
+    padding-bottom: 1rem;
+    margin-left: -3rem;
+  }
+  
+  .ten {
+    color: #aaa;
+  }
+
+  .blue-star {
+    color: rgb(27, 117, 190);
+    font-size: 120%;
+    font-weight: bolder;
+  }
+
+  .blue-star:hover { 
+    color: rgb(23, 56, 83);;
+  }
+
+  .popularity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -0.2rem;
+  }
+
+  .popularity h4 {
+    margin-top: 0.2rem;
+    margin-left: 0.3rem;
+  }
+
+  .rate-container {
+    padding: 0.2rem;
+    border-radius: 10%;
+  }
+  .rate-container:hover {
+    cursor: pointer;
+    background-color: #444;
+  }
